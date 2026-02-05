@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-claro: #C5DFFF;
+  --color-escuro: #061E3C;
+  --color-hover: #1057B0;
+  --font-inter: 'Inter', sans-serif;
+
+  --animate-sino: sino_kf 0.5s ease-in-out infinite;
+
+  @keyframes sino_kf {
+    0%, 100% {
+      transform: rotate(-10deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+  }
+}
